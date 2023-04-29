@@ -1,2 +1,7 @@
 # TEAMNAME-SQA2023-AUBURN
-5710PROJECT
+
+## Team Name
+Jie-Shi-TEAM
+
+## Team Members
+- Jie Shi
