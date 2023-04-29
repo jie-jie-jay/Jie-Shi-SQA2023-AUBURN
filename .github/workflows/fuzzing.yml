@@ -28,3 +28,10 @@ jobs:
 
     - name: Run fuzzing tests
       run: python fuzz.py
+
+    - name: Upload fuzzing log
+      if: always()
+      uses: actions/upload-artifact@v2
+      with:
+        name: fuzz.log
+        path: fuzz.log
